@@ -1,0 +1,35 @@
+{{#if inventory}}
+
+{{#each inventory}}
+<div class="center"><a href="{{this.link}}" target="_blank"><img class="logo" src="{{this.image}}"></a></div>
+<h1 class="center"><a href="/{{toLowerCase this.manufacturer}}">{{this.manufacturer}}</a></h1>
+<h3 class="center">Models</h3>
+<table>
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Model Number</th>
+        <th>Category</th>
+        <th>CPU</th>
+        <th>Memory</th>
+        <th>Storage</th>
+        <th>Screen Size</th>
+    </tr>
+    {{#each this.models}}
+    <tr>
+        <td><img class="prod" src="{{this.image}}"></td>
+        <td>{{this.name}}</td>
+        <td>{{this.modelnumber}}</td>
+        <td>{{this.category}}</td>
+        <td>{{this.cpu}}</td>
+        <td>{{this.memory}}</td>
+        <td>{{this.storage}}</td>
+        <td>{{this.screensize}}</td>
+    </tr>
+    {{/each}}
+</table>
+{{/each}}
+
+{{else}}
+<h1 class="center">No inventory in the system</h1>
+{{/if}}

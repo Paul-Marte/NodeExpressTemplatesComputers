@@ -1,0 +1,38 @@
+body{
+    margin:0 auto;
+    width:800px;
+    font-family: 'Trebuchet MS';
+    color: #757575;
+    background-color: #efefef;
+}
+    
+.center{ text-align:center; } 
+    
+a {    
+    font-weight:bold;
+    text-decoration:none;
+    color:#757575;
+}
+    
+a:hover {
+    color: #ccc;
+}     
+    
+   
+nav a{
+    font-size: 2.5rem;
+    padding-right:20px;
+}
+    
+table {
+    border-collapse: collapse;
+    margin-bottom:30px;
+}
+
+table, th, td {
+    border: 1px solid #b8b8b8;
+    padding:5px;
+}
+        
+img.logo, img.prod { width:200px;}
+h1, h1 a{font-size:3rem;font-weight:100;color: #919191;}

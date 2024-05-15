@@ -1,0 +1,127 @@
+[
+    {
+        "manufacturer": "Dell",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
+        "link": "https://www.dell.ca",
+        "models": [
+            {
+                "name": "Latitude",
+                "modelnumber": "5510",
+                "category": "Laptop",
+                "cpu": "Intel i7 Dual Core",
+                "memory": "8GB",
+                "storage": "256GB SSD",
+                "screensize": "15\"",
+                "image": "//i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/latitude_notebooks/14_7400/global-spi/ng/notebook_latitude_14_7400_campaign_hero_504x350_ng.psd?fmt=jpg&wid=570&hei=400"
+            },
+            {
+                "name": "Latitude",
+                "modelnumber": "7400",
+                "category": "Laptop",
+                "cpu": "Intel i7 Quad Core",
+                "memory": "16GB",
+                "storage": "1TB SSD",
+                "screensize": "17\"",
+                "image": "//i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/latitude_notebooks/14_7400/global-spi/ng/notebook_latitude_14_7400_campaign_hero_504x350_ng.psd?fmt=jpg&wid=570&hei=400"
+            },
+            {
+                "name": "XPS 13",
+                "modelnumber": "7390",
+                "category": "Laptop",
+                "cpu": "Intel i7 Quad Core",
+                "memory": "16GB",
+                "storage": "1TB SSD",
+                "screensize": "13\"",
+                "image": "//i.dell.com/sites/csimages/Video_Imagery/all/xps_7590_touch.png"
+            },
+            {
+                "name": "XPS 15",
+                "modelnumber": "7590",
+                "category": "Laptop",
+                "cpu": "Intel i7 Quad Core",
+                "memory": "16GB",
+                "storage": "1TB SSD",
+                "screensize": "13\"",
+                "image": "//i.dell.com/sites/csimages/Video_Imagery/all/xps_7590_touch.png"
+            },
+            {
+                "name": "PowerEdge",
+                "modelnumber": "R610",
+                "category": "Rackmount Server",
+                "cpu": "4 Intel Quad Core Xeon 2.9GHz",
+                "memory": "256GB",
+                "storage": "6 1TB SSD",
+                "image": "//cdn11.bigcommerce.com/s-6e5d5/images/stencil/2048x2048/products/3964/17108/r610-nobezel__40228__45236.1534268099.png?c=2"
+            },
+            {
+                "name": "PowerEdge",
+                "modelnumber": "T410",
+                "category": "Tower Server",
+                "cpu": "2 Intel Quad Core Xeon 2.9 GHz",
+                "memory": "64GB",
+                "storage": "2 512GB SSD",
+                "image": "//c1.neweggimages.com/NeweggImage/ProductImage/A92N_1_201705101026678793.jpg"
+            }
+        ]
+    },
+    {
+        "manufacturer": "Lenovo",
+        "logo": "https://logos-download.com/wp-content/uploads/2016/03/Lenovo_logo_tm.png",
+        "link": "https://www.lenovo.com/ca/en/",
+        "models": [
+            {
+                "name": "ThinkPad",
+                "modelnumber": "X390",
+                "category": "Laptop",
+                "cpu": "Intel i7 Dual Core",
+                "memory": "16GB",
+                "storage": "512GB SSD",
+                "screensize": "13\"",
+                "image": "//www.lenovo.com/medias/lenovo-thinkpad-x390-hero-1126.png?context=bWFzdGVyfHJvb3R8NzM5NjZ8aW1hZ2UvcG5nfGhlOC9oZGYvMTA2NzM1MzY0OTk3NDIucG5nfDNjOGZmNmFjYjhiNmU4N2E0OTg2NGM2Mjk0MWYxOWYwNWVhNWI5ZWJjNWIzOGI4MDc2NWMzM2U2ZjRhMjQyOTE"
+            },{
+                "name": "IdeaPad",
+                "modelnumber": "81YK00CGUS",
+                "category": "Laptop",
+                "cpu": "Intel i5 Dual Core",
+                "memory": "16GB",
+                "storage": "512GB SSD",
+                "screensize": "15\"",
+                "image": "//img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4xNo2?ver=4edb&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true"
+            }
+        ]
+    },
+    {
+        "manufacturer": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/488px-Apple_logo_grey.svg.png",
+        "link": "https://www.apple.com",
+        "models": [
+            {
+                "name": "iMac",
+                "modelnumber": "10-core",
+                "category": "Desktop all-in-one",
+                "cpu": "Intel i9 10 Core 5.0 GHz",
+                "memory": "16GB",
+                "storage": "2TB SSD",
+                "screensize": "27\"",
+                "image": "//store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imacpro-27-retina-selection-hero?wid=892&hei=820&&qlt=80&.v=1511982294002"
+            },{
+                "name": "Mac Pro",
+                "modelnumber": "10-core",
+                "category": "Workstation",
+                "cpu": "Intel i9 10 Core 5.0 GHz",
+                "memory": "64GB",
+                "storage": "2TB SSD",               
+                "image": "//images.macrumors.com/article-new/2013/09/macprowithmodules-800x670.jpg"
+            
+            },{
+                "name": "MacBook Pro",
+                "category": "Laptop",
+                "cpu": "Intel i7 Dual Core",
+                "memory": "16GB",
+                "storage": "1TB SSD",
+                "screensize": "15\"",
+                "image": "//i5.walmartimages.com/asr/40dd256d-c642-4bda-a08d-ad8240e2a297.2d0f0d05fc9db08763ad95ecde320280.jpeg"
+            }
+        ]
+    }
+]
