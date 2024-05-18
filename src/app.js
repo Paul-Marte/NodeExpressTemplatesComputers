@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Define paths for Express config
-const publicDirPath = express.static(path.join(__dirname, ' ../public'))
+const publicDirPath = express.static(path.join(__dirname, '../public'))
 const viewsPath = path.join(__dirname, '../templates/views');
 const partialPath = path.join(__dirname, '../templates/partials');
 

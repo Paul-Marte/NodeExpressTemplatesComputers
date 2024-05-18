@@ -6,7 +6,7 @@ const getInventory = () => {
 
         return JSON.parse(dataBuffer.toString());
     } catch (err) {
-        console. log(err);
+        console.log(err);
         return [];
     }
 }
